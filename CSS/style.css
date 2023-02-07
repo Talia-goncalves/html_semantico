@@ -37,8 +37,11 @@ main{
     flex-direction: column;
     gap: 30px;
     align-items: center;
+}
 
-
+#sobre p{
+    width: 300px;
+    height: 100px;
 }
 #contato form{
     display:flex;
