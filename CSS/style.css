@@ -39,14 +39,21 @@ main{
     align-items: center;
 }
 
-#sobre p{
-    width: 300px;
-    height: 100px;
+#sobre div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
 }
 
-div #imagem{
-    left: 10%;
-    bottom: ;
+#sobre p{
+    width: 240px;
+    height: 100px;
+    text-align: justify;
+}
+
+#sobre img{
+    width: 110px;
 }
 
 #contato form{
@@ -54,6 +61,9 @@ div #imagem{
     flex-direction: column;
     gap:10px;
 }
+
+
+
 footer{
     display: flex;
     justify-content: center;
@@ -62,10 +72,23 @@ footer{
     padding: 10px;
 } 
 
-h2{
+h2, h1{
     text-align: center;
 }
+
 textarea{
     width: 400px;
     height: 60px;
+}
+
+#sobre{
+    box-shadow: 0px 5px 15px rgb(162, 49, 162);
+    background-color: rgb(40,0,70);
+    padding: 10px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#sobre:hover{   
+     box-shadow: 0px 5px 25px rgb(162, 49, 162);
 }
