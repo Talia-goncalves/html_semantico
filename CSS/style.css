@@ -44,6 +44,8 @@ main{
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
+    width: 400px;
+    height: 120px;
 }
 
 #sobre p{
@@ -53,7 +55,8 @@ main{
 }
 
 #sobre img{
-    width: 110px;
+    width: 100px;
+    height: 100px;
 }
 
 #contato form{
