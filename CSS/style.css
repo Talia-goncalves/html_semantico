@@ -83,8 +83,6 @@ textarea{
     width: 400px;
     height: 60px;
 }
-<<<<<<< HEAD
-
 #sobre{
     box-shadow: 0px 5px 15px rgb(162, 49, 162);
     background-color: rgb(40,0,70);
@@ -92,10 +90,9 @@ textarea{
     align-items: center;
     transition: 0.3s;
 }
-
 #sobre:hover{   
      box-shadow: 0px 5px 25px rgb(162, 49, 162);
-=======
+}
 #linguagens div{
     display: flex;
     flex-direction: row;
@@ -109,7 +106,6 @@ textarea{
 #linguagens{
     transition: 0.3s;
     color: rgba(40,0,70, 0);
-    : rgba(40,0,70, 0);
 }
 
 #linguagens:hover{  /*animação*/ 
@@ -123,5 +119,4 @@ textarea{
 #linguagens:hover{
     -webkit-filter: drop-shadow(20px 20px 5px rgba(0,0,0,.5));
     filter: drop-shadow(20px 20px 5px rgb(0,0,0,.5));
->>>>>>> 7fec84473651b23795f7aca058ad093126138d34
 }
